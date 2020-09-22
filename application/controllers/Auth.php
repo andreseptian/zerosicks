@@ -229,7 +229,7 @@ class Auth extends CI_Controller
 		if (!$code) {
 			show_404();
 		}
-
+		$user = $this->ion_auth->user()->row();
 		$user = $this->ion_auth->forgotten_password_check($code);
 
 		if ($user) {

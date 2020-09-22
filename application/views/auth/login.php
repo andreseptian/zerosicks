@@ -36,7 +36,7 @@
         </div>
         <div class="div">
           <h5>Email</h5>
-          <input type="text" name="identity" class="form-control input" required="required" autofocus>
+          <input type="text" name="identity" class="form-control input" required="required">
         </div>
       </div>
       <div class="input-div pass">

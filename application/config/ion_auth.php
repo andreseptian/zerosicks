@@ -134,9 +134,18 @@ $config['identity_cookie_name'] = 'identity';
  | 	  'file' = Use the default CI config or use from a config file
  | 	  array  = Manually set your email config settings
  */
-$config['use_ci_email'] = FALSE; // Send Email using the builtin CI email class, if false it will return the code and the identity
+$config['use_ci_email'] = TRUE; // Send Email using the builtin CI email class, if false it will return the code and the identity
 $config['email_config'] = array(
-	'mailtype' => 'html',
+	'mailtype'  => 'html',
+	'charset'   => 'utf-8',
+	'protocol'  => 'smtp',
+	'smtp_host' => 'smtp.gmail.com',
+	'smtp_user' => 'zerosicksanalysis@gmail.com',  // Email gmail
+	'smtp_pass'   => 'indahpadawaktunya',  // Password gmail
+	'smtp_crypto' => 'ssl',
+	'smtp_port'   => 465,
+	'crlf'    => "\r\n",
+	'newline' => "\r\n"
 );
 
 /*
