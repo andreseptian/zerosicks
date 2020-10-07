@@ -8,28 +8,79 @@
 </div> -->
 
 <div class="row">
-  <div class="col-md-6">
-    <div class="box">
-      <div class="box-header">
-        <h5 class="box-title">Silahkan klik di bawah ini untuk melihat Materi K3</h5>
-        <!-- <div class="box-tools pull-right">
-                    <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
-                        <i class="fa fa-minus"></i></button>
-                    <button type="button" class="btn btn-box-tool" onclick="location.reload()" title="Collapse">
-                        <i class="fa fa-refresh"></i></button>
-                </div> -->
-      </div>
-      <!-- /.box-header -->
-      <a href="https://drive.google.com/file/d/1hd-VBIe_bNwQeaK2I3UQw9akGPx9NqsC/view?usp=sharing" target="_blank">
-        <div class="box-body">
-          <img src="<?php echo base_url(); ?>assets/file_upload/konten/materi.png" alt="" width="100%">
-          <div class="box">
-            <a href="https://drive.google.com/file/d/1hd-VBIe_bNwQeaK2I3UQw9akGPx9NqsC/view?usp=sharing" target="_blank" class="btn bg-green btn-block btn-sm"><b>Materi K3</b></a>
-            <!-- /.box-body -->
-          </div>
-        </div>
-      </a>
-
-    </div>
-  </div>
+	<div class="col-md-12">
+		<div class="box  bg-green">
+			<div class="box-header">
+				<h5 class="box-title" style="color: white;">Silahkan klik di bawah ini untuk melihat materi K3</h5>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="col-md-3">
+						<div class="box">
+							<a href="https://drive.google.com/file/d/1FNlO71LeFU_NlVJi8SQzZN81-d5cdGbh/view?usp=sharing" target="_blank">
+								<!-- <h4 style="text-align: center;">1. Environment</h4> -->
+								<div class="box-body">
+									<img src="<?php echo base_url(); ?>assets/file_upload/konten/materi/1.png" alt="" width="100%">
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="box">
+							<a href="https://drive.google.com/file/d/1wNkW8MzgiTz7HtL7dIepFquG91AxLdf4/view?usp=sharing" target="_blank">
+								<!-- <h4 style="text-align: center;">2. Hazard</h4> -->
+								<div class="box-body">
+									<img src="<?php echo base_url(); ?>assets/file_upload/konten/materi/2.png" alt="" width="100%">
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="box">
+							<a href="https://drive.google.com/file/d/1dyTpSo_hpiAJ1c427vavFjFaLfp1UGUg/view?usp=sharing" target="_blank">
+								<!-- <h4 style="text-align: center;">3. Observation</h4> -->
+								<div class="box-body">
+									<img src="<?php echo base_url(); ?>assets/file_upload/konten/materi/3.png" alt="" width="100%">
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="box">
+							<a href="https://drive.google.com/file/d/1w_mXzefJWUIr1keVsqKOelvtIuOfUHHu/view?usp=sharing" target="_blank">
+								<!-- <h4 style="text-align: center;">4. Risk</h4> -->
+								<div class="box-body">
+									<img src="<?php echo base_url(); ?>assets/file_upload/konten/materi/4.png" alt="" width="100%">
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="col-md-3">
+						<div class="box">
+							<a href="https://drive.google.com/file/d/1HU8r2FiDky9PQPLvB_UGCqmmGHKWgizk/view?usp=sharing" target="_blank">
+								<!-- <h4 style="text-align: center;">4. Risk</h4> -->
+								<div class="box-body">
+									<img src="<?php echo base_url(); ?>assets/file_upload/konten/materi/5.png" alt="" width="100%">
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="box">
+							<a href="https://drive.google.com/file/d/1phixWMwmyChwnCwx25m87nJcZGK9j563/view?usp=sharing" target="_blank">
+								<!-- <h4 style="text-align: center;">4. Risk</h4> -->
+								<div class="box-body">
+									<img src="<?php echo base_url(); ?>assets/file_upload/konten/materi/6.png" alt="" width="100%">
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
