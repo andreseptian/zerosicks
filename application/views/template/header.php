@@ -34,6 +34,7 @@
   <link rel="stylesheet" href="<?= base_url('assets/plugins/alertify/css/alertify.css'); ?>">
   <link rel="stylesheet" href="<?= base_url('assets/bower_components/bootstrap-select/css/bootstrap-select.css'); ?>">
   <link rel="stylesheet" href="<?= base_url('assets/dist/css/tamacms/custom.css'); ?>">
+  <link rel="stylesheet" href="<?= base_url('assets/js/jquery.fancybox.css'); ?>">
   <!-- jQuery 3 -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 
@@ -55,7 +56,8 @@
         <!-- mini logo for sidebar mini 50x50 pixels -->
         <center><span class="logo-mini"><?= $this->config->item('sitename_mini') ?></span>
           <!-- logo for regular state and mobile devices -->
-          <span class="logo-lg"><?= $this->config->item('sitename') ?></span></center>
+          <span class="logo-lg"><?= $this->config->item('sitename') ?></span>
+        </center>
       </a>
       <!-- Header Navbar: style can be found in header.less -->
       <nav class="navbar navbar-static-top">

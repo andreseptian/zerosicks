@@ -78,6 +78,26 @@
 
       $("ul.sidebar-menu li#<?= $this->router->fetch_class(); ?>").addClass('active');
     </script>
+
+    <script src="<?= base_url('assets/js/jquery.fancybox.js"'); ?>"></script>
+    <script src="<?= base_url('assets/js/jquery.elevateZoom-3.0.8.min.js'); ?>"></script>
+    <script type="text/javascript">
+      //script untuk menampilkan image zoom
+      $("#zoom").elevateZoom({
+        zoomType: "lens",
+        lensShape: "square",
+        lensSize: 100
+      });
+      $("#zoom1").elevateZoom({
+        zoomType: "lens",
+        lensShape: "round",
+        lensSize: 300
+      });
+      $(document).ready(function() {
+        $("#zoom").fancybox();
+      });
+    </script>
+
     <?php (isset($code_js) ? $this->load->view($code_js) : ""); ?>
 
     </body>

@@ -36,7 +36,6 @@
               </div>
               <div class="item">
                 <img src="<?php echo base_url(); ?>assets/file_upload/konten/form3.png" alt="Third slide" width="100%">
-
                 <div class="carousel-caption">
                   Third Slide
                 </div>

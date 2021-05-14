@@ -20,8 +20,32 @@
 							<a href="https://drive.google.com/file/d/1FNlO71LeFU_NlVJi8SQzZN81-d5cdGbh/view?usp=sharing" target="_blank">
 								<!-- <h4 style="text-align: center;">1. Environment</h4> -->
 								<div class="box-body">
-									<img src="<?php echo base_url(); ?>assets/file_upload/konten/materi/1.png" alt="" width="100%">
+									<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+										<ol class="carousel-indicators">
+											<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+											<li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+											<li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+										</ol>
+										<div class="carousel-inner">
+											<div class="item active">
+												<img src="<?php echo base_url(); ?>assets/file_upload/konten/materi/1.png" alt="" width="100%">
+											</div>
+											<div class="item">
+												<img src="<?php echo base_url(); ?>assets/file_upload/konten/materi/2.png" alt="" width="100%">
+											</div>
+											<div class="item">
+												<img src="<?php echo base_url(); ?>assets/file_upload/konten/materi/2.png" alt="" width="100%">
+											</div>
+										</div>
+										<!-- <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+											<span class="fa fa-angle-left"></span>
+										</a>
+										<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+											<span class="fa fa-angle-right"></span>
+										</a> -->
+									</div>
 								</div>
+
 							</a>
 						</div>
 					</div>
